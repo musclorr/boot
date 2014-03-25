@@ -7,8 +7,10 @@ touch /.installed
 
 echo "=== installing ==="
 pacman -S -y --noconfirm
-pacman -S --needed --noconfirm alsa-utils windowmaker-extra zsnes gens dgen-sdl
+pacman -S --needed --noconfirm alsa-utils windowmaker-extra zsnes gens dgen-sdl zip firefox-adblock-plus
 git config --global user.email musclorr@gmail.com
 git config --global user.name musclorr
 alsactl init
+echo "syntax on" > /root/.vimrc
+zip -u /usr/lib/firefox/omni.ja defaults/profile/bookmarks.html
 
