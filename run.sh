@@ -10,4 +10,5 @@ pacman -S -y --noconfirm
 pacman -S --needed --noconfirm alsa-utils
 git config --global user.email musclorr@gmail.com
 git config --global user.name musclorr
+alsactl init
 
