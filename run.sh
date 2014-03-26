@@ -15,5 +15,5 @@ alsactl init
 echo "syntax on" > /root/.vimrc
 zip -u /usr/lib/firefox/omni.ja defaults/profile/bookmarks.html
 cp .Xmodmap /root
-cp atxorg.sh /etc/X11/xorg.conf.d/
+cp atxorg.sh /etc/X11/xinit/xinitrc.d/
 
