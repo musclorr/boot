@@ -20,3 +20,5 @@ cp atxorg.sh /etc/X11/xinit/xinitrc.d/
 cp vendor.js /usr/lib/firefox/browser/defaults/preferences
 # cp WM* /etc/WindowMaker
 
+# change time zone
+timedatectl set-timezone Europe/Paris
