@@ -10,3 +10,11 @@ pref("extensions.shownSelectionUI", true);
 
 // backspace to go back plz
 pref("browser.backspace_action", 0);
+
+// do not ask to save password
+pref("browser.syncPromoViewsLeftMap", "{\"passwords\":3}");
+
+// do not ask to close tabs
+pref("browser.tabs.warnOnClose", false);
+
+pref("browser.startup.homepage" , "https://drive.google.com/");

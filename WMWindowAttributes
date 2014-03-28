@@ -1,0 +1,8 @@
+{
+  firefox.Firefox = {
+    Icon = "/root/boot/firefox.Firefox.xpm";
+  };
+  glchess.Glchess = {
+    Icon = "/root/boot/glchess.xpm";
+  };
+}

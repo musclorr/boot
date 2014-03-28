@@ -18,3 +18,5 @@ cp .Xmodmap /root
 cp atxorg.sh /etc/X11/xinit/xinitrc.d/
 
 cp vendor.js /usr/lib/firefox/browser/defaults/preferences
+# cp WM* /etc/WindowMaker
+
