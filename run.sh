@@ -22,3 +22,21 @@ cp vendor.js /usr/lib/firefox/browser/defaults/preferences
 
 # change time zone
 timedatectl set-timezone Europe/Paris
+
+# install citrix receiver
+pacman -S --needed --noconfirm libpng12
+cd ~/
+tar zxvf ~/boot/linuxx86-13.0.0.256735.tar.gz
+cat | ./setupwfc << EOF
+1
+
+y
+y
+y
+n
+
+3
+EOF
+
+ln -s  /usr/share/ca-certificates/mozilla/*  /opt/Citrix/ICAClient/keystore/cacerts
+
